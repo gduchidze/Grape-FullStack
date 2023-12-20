@@ -1,0 +1,47 @@
+.header{
+  position: unset !important;
+}
+
+
+.menu{
+   margin-bottom: 0 !important;
+}
+
+
+
+
+.form{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto !important;
+  padding: 8px  14px;
+  border-radius: 10px;
+ background: linear-gradient(to right, #5f0e17, #db283da3);
+  box-shadow: 0 0 5px  #000;
+}
+
+
+
+.btn a,
+.btn a:hover,
+.btn,
+.btn:hover {
+  text-decoration: none;
+  background: transparent;
+  color: #fff !important;
+  padding: 8px 28px;
+  border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    margin: auto;
+}
+.btn{
+  background: transparent !important;
+    transition: .3s ease-in-out !important;
+  border: 1px solid rgba(255,255,255, 0.4);
+}
+.btn:hover {
+    transform: scale(1.1);
+border: 1px solid #fff;
+}
